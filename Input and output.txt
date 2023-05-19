@@ -1,0 +1,97 @@
+INPUT AND OUTPUT:
+1.To write a python program to print output.
+ 
+SAMPLE OUTPUT:
+  Hello People! Welcome to our desert.
+CODE:
+  print("Hello People! Welcome to our desert.")
+
+2.To write a python program to print output in the next line.
+Sample Output:
+  MECON
+  Stadium
+CODE:
+  print("MECON\nStadium")
+
+3.To write a python program to read value from the user and display it.
+Sample Input:
+  29
+Sample Output:
+  The cricketer age is 29
+CODE:
+  a=int(input())
+  print("The cricketer age is\n",a)
+
+4.To write a python program to read a double value from the user and print it with 2 decimal value.
+Sample  Input:
+  141.236
+Sample Output:
+  141.24
+CODE:
+  a=float(input())
+  print("%.2f"%a)
+
+5.Write a python program to read a string from the user and display it.
+Sample Input:
+  Wankhede Stadium
+Sample Output:
+  Today's match will be held at Wankhede Stadium
+CODE:
+  a=input()
+  print("Today's match will be held at ",a)
+
+6.To write a python program to read the given inputs from the user and display it.
+Sample Input and Output:
+  Team 1:
+  Team Name:
+  DAV Jawahar Vidhya Mandir
+  Score:
+  150
+  Overs played:
+  20
+  Team 2:
+  Team name:
+  Kendriya School
+  Score:
+  110
+  Overs played:
+  18
+  Match Details:
+  Team 1:
+  Name: DAV Jawahar Vidhya Mandir
+  Score: 150
+  Overs played: 20
+  Team 2:
+  Name:  Kendriya School
+  Score: 110
+  Overs played: 18
+CODE:
+  print("Team 1:")
+  a=input("Team Name:\n")
+  b=int(input("Score:\n"))
+  c=int(input("Overs played:\n"))
+  print("Team 2:")
+  d=input("Team Name:\n")
+  e=int(input("Score:\n"))
+  f=int(input("Overs played:\n"))
+  print("Match Details:")
+  print("Team 1:")
+  print("Name:",a)
+  print("Score:",b)
+  print("Overs played:",c)
+  print("Team 2:")
+  print("Name:",d)
+  print("Score:",e)
+  print("Overs played:",f)
+
+7.To write a python program to read input from the user and display it as above.
+Sample Input and Output:
+  Name:
+  Dhoni
+  Game:
+  Football
+  My name is Dhoni and I love to play Football
+CODE:
+  a=input("Name:\n")
+  b=input("Game:\n")
+  print("My name is",a,"and I love to play",b)
